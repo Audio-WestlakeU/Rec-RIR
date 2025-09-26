@@ -31,7 +31,7 @@ torchrun --standalone --nnodes=1 --nproc_per_node=[number of GPUs] train.py -c c
 torchrun --standalone --nnodes=1 --nproc_per_node=[number of GPUs] train.py -c config/Rec-RIR.toml -p [saved dirpath] -r 
 
 # use pretrained checkpoints
-torchrun --standalone --nnodes=1 --nproc_per_node=[number of GPUs] train.py -c config/Rec-RIR.toml -p [saved dirpath] --start_ckpt [pretrained model filepath]
+torchrun --standalone --nnodes=1 --nproc_per_node=[number of GPUs] train.py -c config/Rec-RIR.toml -p [saved dirpath] --start_ckpt ckpt/epoch35.tar
 ```
 
 ### Inference
