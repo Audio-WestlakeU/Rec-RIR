@@ -10,9 +10,11 @@ Room impulse response (RIR) characterizes the complete propagation process of so
 ## Performance
 
 Results
+
 <img src="figure/performance.png" width="800">
 
 Example
+
 <img src="figure/waveform.png" width="400">
 
 ## Quick start
