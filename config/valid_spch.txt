@@ -1,0 +1,8 @@
+/mnt/inspurfs/home/wangpengyu/dataset/wsj0/si_et_05/440/440c0201.wav
+/mnt/inspurfs/home/wangpengyu/dataset/wsj0/si_et_05/440/440c0202.wav
+/mnt/inspurfs/home/wangpengyu/dataset/wsj0/si_et_05/440/440c0203.wav
+/mnt/inspurfs/home/wangpengyu/dataset/wsj0/si_et_05/440/440c0204.wav
+/mnt/inspurfs/home/wangpengyu/dataset/wsj0/si_et_05/440/440c0205.wav
+/mnt/inspurfs/home/wangpengyu/dataset/wsj0/si_et_05/440/440c0206.wav
+/mnt/inspurfs/home/wangpengyu/dataset/wsj0/si_et_05/440/440c0207.wav
+/mnt/inspurfs/home/wangpengyu/dataset/wsj0/si_et_05/440/440c0208.wav

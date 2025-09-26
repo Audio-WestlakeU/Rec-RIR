@@ -36,7 +36,9 @@ torchrun --standalone --nnodes=1 --nproc_per_node=[number of GPUs] train.py -c c
 
 ### Inference
 
-**The codes will be released soon.**
+```
+python inference.py -c config/Rec-RIR.toml --ckpt ckpt/epoch35.tar -i [reverberant speech dirpath] -o [output dirpath]
+```
 
 ## Citation
 If you find our work helpful, please cite

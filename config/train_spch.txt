@@ -1,0 +1,8 @@
+/mnt/inspurfs/home/wangpengyu/dataset/EN_ears+dns+vctk_trimed/book_00000_chp_0009_reader_06709_14_0.flac
+/mnt/inspurfs/home/wangpengyu/dataset/EN_ears+dns+vctk_trimed/book_00000_chp_0009_reader_06709_14_1.flac
+/mnt/inspurfs/home/wangpengyu/dataset/EN_ears+dns+vctk_trimed/book_00000_chp_0009_reader_06709_14_2.flac
+/mnt/inspurfs/home/wangpengyu/dataset/EN_ears+dns+vctk_trimed/book_00000_chp_0009_reader_06709_14_3.flac
+/mnt/inspurfs/home/wangpengyu/dataset/EN_ears+dns+vctk_trimed/book_00000_chp_0009_reader_06709_14_4.flac
+/mnt/inspurfs/home/wangpengyu/dataset/EN_ears+dns+vctk_trimed/book_00000_chp_0009_reader_06709_14_5.flac
+/mnt/inspurfs/home/wangpengyu/dataset/EN_ears+dns+vctk_trimed/book_00025_chp_0019_reader_04069_20_0.flac
+/mnt/inspurfs/home/wangpengyu/dataset/EN_ears+dns+vctk_trimed/book_00025_chp_0019_reader_04069_20_1.flac

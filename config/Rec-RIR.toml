@@ -21,7 +21,7 @@ path = "trainer_inferencer.trainer_RecRIR.Trainer"
 path = "model.RecRIR.BiSpatialNet"
 
 [EM_algo]
-path = "method.PIM.PIM"
+path = "method.pim.PIM"
 
 [acoustic.args]
 sr = 16000
@@ -29,7 +29,6 @@ n_fft = 512
 win_len = 512
 hop_len = 256
 win_type = "sqrthann"
-n_mel = 80
 
 [dataloader.args]
 src_pathlist = [ "config/train_spch.txt", "config/valid_spch.txt", "config/valid_spch.txt",]
@@ -85,5 +84,4 @@ full_share = 0
 attention = "mamba(16,4)"
 
 [EM_algo.args]
-CTF_len = 60
 sr = 16000
