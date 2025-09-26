@@ -1,0 +1,89 @@
+[meta]
+seed = 2024
+cudnn_enable = true
+
+[acoustic]
+path = "acoustics.feature.transforms"
+
+[dataloader]
+path = "dataset.dataset_RecRIR.MyDataloader"
+
+[optimizer]
+type = "AdamW"
+
+[scheduler]
+type = "CosineAnnealingWarmRestarts"
+
+[trainer]
+path = "trainer_inferencer.trainer_RecRIR.Trainer"
+
+[model]
+path = "model.RecRIR.BiSpatialNet"
+
+[EM_algo]
+path = "method.PIM.PIM"
+
+[acoustic.args]
+sr = 16000
+n_fft = 512
+win_len = 512
+hop_len = 256
+win_type = "sqrthann"
+n_mel = 80
+
+[dataloader.args]
+src_pathlist = [ "config/train_spch.txt", "config/valid_spch.txt", "config/valid_spch.txt",]
+rir_pathlist = [ "config/train_rir.txt", "config/valid_rir.txt", "config/valid_rir.txt",]
+noise_pathlist = [ "config/train_noise_stationary.txt", "config/valid_noise_stationary.txt", "config/valid_noise_stationary.txt",]
+snr_range = [ 5, 20,]
+seq_lenlist = [ 4.0, 6.0, 4.0,]
+batchsize = [ 4, 4, 1,]
+num_workers = 8
+seeds = [ 2022, 2023, 2024,]
+pin_memory = true
+prefetch_factor = 1
+persistent_workers = true
+rank = 0
+sr = 16000
+noisy_proportion = 1
+
+[optimizer.args]
+lr = 0.001
+
+[scheduler.args]
+T_0 = 24272 # depend on the samples in one epoch
+
+[trainer.train]
+epochs = 100
+clip_grad_norm_value = 1
+save_ckpt_interval = 1
+loss_w_cln = 1
+loss_w_rvb = 1
+loss_w_rec = 1
+loss_type = "RIMag"
+
+[trainer.validation]
+interval = 1
+save_max_metric = false
+
+[model.args]
+dim_input = 2
+dim_output_spch = 2
+dim_output_CTF = 120
+dim_hidden = 96
+dim_squeeze = 8
+num_freqs = 257
+num_layers_spch = 6
+num_layers_noise = 2
+num_layers_CTF = 4
+encoder_kernel_size = 5
+dropout = [ 0, 0, 0,]
+kernel_size = [ 5, 3,]
+conv_groups = [ 8, 8,]
+norms = [ "LN", "LN", "LN", "LN", "LN", "LN",]
+full_share = 0
+attention = "mamba(16,4)"
+
+[EM_algo.args]
+CTF_len = 60
+sr = 16000
