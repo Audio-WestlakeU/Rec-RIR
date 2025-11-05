@@ -55,13 +55,13 @@ If you find our work helpful, please cite
 ```
 Please also consider citing our previous work
 ```
-@misc{wang2025vinpvariationalbayesianinference,
-      title={VINP: Variational Bayesian Inference with Neural Speech Prior for Joint ASR-Effective Speech Dereverberation and Blind RIR Identification}, 
-      author={Pengyu Wang and Ying Fang and Xiaofei Li},
-      year={2025},
-      eprint={2502.07205},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS},
-      url={https://arxiv.org/abs/2502.07205}, 
-}
+@ARTICLE{VINP,
+  author={Wang, Pengyu and Fang, Ying and Li, Xiaofei},
+  journal={IEEE Transactions on Audio, Speech and Language Processing}, 
+  title={VINP: Variational Bayesian Inference With Neural Speech Prior for Joint ASR-Effective Speech Dereverberation and Blind RIR Identification}, 
+  year={2025},
+  volume={33},
+  number={},
+  pages={4387-4399},
+  doi={10.1109/TASLPRO.2025.3622947}}
 ```
