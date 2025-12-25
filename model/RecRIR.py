@@ -434,7 +434,7 @@ class BiSpatialNet(nn.Module):
         
         full = None
         ctf_layers = []
-        for l in range(num_layers_spch):
+        for l in range(num_layers_CTF):
             layer = SpatialNetLayer_nb(
                 dim_hidden=dim_hidden,
                 dim_squeeze=dim_squeeze,
