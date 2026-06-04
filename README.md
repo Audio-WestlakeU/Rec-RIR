@@ -10,6 +10,10 @@ Spectrum Reconstruction**'
 
 ## Performance
 
+Network architecture
+<img src="figure/arch.png" width="800">
+
+
 Results
 
 <img src="figure/performance.png" width="800">
