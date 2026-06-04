@@ -1,11 +1,12 @@
 # Rec-RIR
 
 ## Introduction
-Official PyTorch implementation of '**Rec-RIR: Monaural Blind Room Impulse Response Identification via DNN-based Reverberant Speech Reconstruction in STFT Domain**'
+Official PyTorch implementation of '**Blind Room Impulse Response Identification via Reverberant Speech
+Spectrum Reconstruction**'
 
 [Paper](https://arxiv.org/abs/2509.15628) | [Code](https://github.com/Audio-WestlakeU/Rec-RIR)
 
-Room impulse response (RIR) characterizes the complete propagation process of sound in an enclosed space. This paper presents Rec-RIR for monaural blind RIR identification. Rec-RIR is developed based on the convolutive transfer function (CTF) approximation, which models reverberation effect within narrow-band filter banks in the short-time Fourier transform (STFT) domain. Specifically, we propose a deep neural network (DNN) with cross-band and narrow-band blocks to estimate the CTF filter. The DNN is trained through reconstructing the noise-free reverberant speech spectra. This objective enables stable and straightforward supervised training. Subsequently, a pseudo intrusive measurement process is employed to convert the CTF filter estimate into time-domain RIR by simulating a common intrusive RIR measurement procedure. Experimental results demonstrate that Rec-RIR achieves state-of-the-art (SOTA) performance in both RIR identification and acoustic parameter estimation. 
+
 
 ## Performance
 
