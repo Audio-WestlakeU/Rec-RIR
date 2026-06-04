@@ -2,7 +2,7 @@
 
 ## Introduction
 Official PyTorch implementation of '**Blind Room Impulse Response Identification via Reverberant Speech
-Spectrum Reconstruction**'
+Spectrum Reconstruction**'[Interspeech 2026]
 
 [Paper](https://arxiv.org/abs/2509.15628) | [Code](https://github.com/Audio-WestlakeU/Rec-RIR)
 
