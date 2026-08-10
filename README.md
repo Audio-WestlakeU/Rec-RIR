@@ -49,7 +49,7 @@ python inference.py -c config/Rec-RIR.toml --ckpt ckpt/epoch35.tar -i [reverbera
 If you find our work helpful, please cite
 ```
 @misc{wang2025recrirmonauralblindroom,
-      title={Rec-RIR: Monaural Blind Room Impulse Response Identification via DNN-based Reverberant Speech Reconstruction in STFT Domain}, 
+      title={Blind Room Impulse Response Identification via Reverberant Speech Spectrum Reconstruction}, 
       author={Pengyu Wang and Xiaofei Li},
       year={2025},
       eprint={2509.15628},
